@@ -56,7 +56,7 @@ namespace OkulApp_07_05_25
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            DbSinif secili = lbSinifler.SelectedItem as DbSinif;
+            DbSinif secili = lbSinifler.SelectedItem as DbSinif; //
 
             context.Siniflar.Remove(secili);
 
